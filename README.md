@@ -156,7 +156,8 @@ this setting automatically match the determined security of the connection. Be
 careful when using this setting if the site is available both as HTTP and HTTPS,
 as once the cookie is set on HTTPS, it will no longer be visible over HTTP. This
 is useful when the Express `"trust proxy"` setting is properly setup to simplify
-development vs production configuration.
+development vs production configuration. 
+See issue [#281](https://github.com/expressjs/session/issues/281) if working on nginx.
 
 ##### genid
 
